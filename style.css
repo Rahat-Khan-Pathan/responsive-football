@@ -157,7 +157,6 @@ main {
     font-weight: 700;
     line-height: 140%;
     color: #0A0826;
-    margin-left: 20px;
     text-align: center;
 }
 .gallery {
@@ -189,7 +188,6 @@ main {
     font-weight: 700;
     line-height: 140%;
     color: #0A0826;
-    margin-left: 20px;
     text-align: center;
 }
 .videos {
@@ -258,12 +256,12 @@ footer {
     text-decoration: none;
 }
 .fab {
-    font-size: 15px;
+    font-size: 22px;
     color: #969BAB;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -321,6 +319,11 @@ footer {
     }
     .video-box {
         width: 275px;
+    }
+    .fab {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
     }
 }
 
@@ -404,6 +407,11 @@ footer {
     }
     .footer-icons {
         width: 220px;
+    }
+    .fab {
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
     }
 }
 
@@ -500,6 +508,11 @@ footer {
     }
     .footer-icons {
         width: 180px;
+    }
+    .fab {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
     }
     .footer-text p{
         font-size: 15px;
