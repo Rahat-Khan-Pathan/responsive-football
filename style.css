@@ -329,22 +329,25 @@ footer {
 @media only screen and (min-width:688px) and (max-width:1023px) {
     
     .top-banner {
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         align-items: center;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .top-left {
         margin: 0;
+        width: 320px;
     }
     .top-left h1 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    .top-left a {
+        font-size: 15px;
     }
     .top-right {
-        margin-top: 80px;
-        width: 500px;
+        margin-left: 50px;
+        width: 320px;
     }
     .players-container {
         grid-template-columns: repeat(2,1fr);
@@ -427,6 +430,7 @@ footer {
     }
     .top-right {
         margin-top: 80px;
+        margin-left: 0;
         width: 280px;
     }
     .players-container {
