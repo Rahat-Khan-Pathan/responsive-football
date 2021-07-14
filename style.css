@@ -114,7 +114,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75%;
     padding: 0px 20px;
 }
 .highlights-text {
@@ -301,17 +300,17 @@ footer {
         width: 275px;
     }
     .highlights-text {
-        width: 370px;
+        width: 450px;
     }
     .highlights-img {
-        width: 370px;
+        width: 450px;
         margin-left: 20px;
     }
     .highlights-text h1 {
         font-size: 36px;
     }
     .highlights-text p {
-        padding-right: 30px;
+        padding-right: 70px;
     }
     .gallery {
         grid-template-columns: repeat(2,1fr);
@@ -369,14 +368,17 @@ footer {
     .highlights-text {
         margin-bottom: 50px;
         justify-content: center;
-        width: 500px;
+        width: 600px;
     }
     .highlights-text p {
-        padding-right: 30px;
+        padding-right: 70px;
     }
     .highlights-img {
-        width: 500px;
+        width: 600px;
         margin-left: 0;
+    }
+    .highlights-img img {
+        height: 400px;
     }
     .gallery-container h2 {
         font-size: 35px;
