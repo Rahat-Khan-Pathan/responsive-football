@@ -3,7 +3,9 @@
 
 
 /*----------------------- common styles ----------------------- */
-
+* {
+    transition: 1s;
+}
 body {
     margin: 0;
     padding: 0;
