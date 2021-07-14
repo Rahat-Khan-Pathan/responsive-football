@@ -360,7 +360,7 @@ footer {
         align-items: center;
     }
     .highlights-text h1 {
-        font-size: 34px;
+        font-size: 36px;
     }
     .highlights-text p {
         padding-right: 10px;
@@ -369,9 +369,6 @@ footer {
         margin-bottom: 50px;
         justify-content: center;
         width: 600px;
-    }
-    .highlights-text p {
-        padding-right: 70px;
     }
     .highlights-img {
         width: 600px;
